@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    /* border: 0.5px solid red; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* font-family: 'Courier New', Courier, monospace; */
+/* background-color:  ; */
+/* height: 100vh; */
+/* width: 100%; */
+/* background-color: ; */
+/* z-index: -1; */
+/* font-family: sans-serif; */
+/* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+
+/*  */
+
+.btn button:first-child{
+    border: 2px solid black;
+    margin-right: 1rem;
+    padding: 0.5rem;
+    /* background-color: blue; */
+    color: white;
+    border-radius: 30%;
+}
+.btn button:last-child{
+    border: 2px solid black;
+    margin-right: 1rem;
+    padding: 0.5rem;
+    /* background-color: blue; */
+    color: white;
+    border-radius: 30%;
+}
