@@ -23,9 +23,8 @@ const Form = () => {
     setrating(edit.Feedback.rating);
     setreview(edit.Feedback.review);
   }, [edit]);
-
   return (
-    <div className=" rounded-lg shadow-2xl bg-[#f2baba] w-[60%] h-[17rem] mt-[1rem] rounded-sm sm: w-[80%] ">
+    <div className=" rounded-lg shadow-2xl bg-[#0f0707] w-[60%] h-[17rem] mt-[1rem] rounded-sm sm: w-[80%] ">
       <form
         onSubmit={(e) => handelSubmit(e)}
         className="flex flex-col p-[1rem] justify-between h-[100%] rounded-lg "

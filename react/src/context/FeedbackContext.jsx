@@ -31,7 +31,6 @@ export const FeedbackProvider = ({ children }) => {
         Feedback.id === upadatedFeedback.id ? upadatedFeedback : Feedback
       )
     );
-
     setedit({
       Feedback: {},
       isedit: false,
